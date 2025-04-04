@@ -15,7 +15,7 @@ This portfolio is a simple, elegant representation of my passion for **Software 
 
 ## 📁 Sections Included
 
-- **Home** – Brief introduction with my image.
+- **Home** – Brief introduction of me.
 - **About Me** – A summary of my interests and goals in tech.
 - **Education** – Academic background and relevant skills.
 - **Interests** – Areas I'm passionate about including problem-solving and climate tech.
