@@ -1,4 +1,4 @@
-# 💻 Kessy Akinyi's Personal Portfolio
+# 💻 My Personal Portfolio
 
 Welcome to my **Personal Portfolio Website**! This is a single-page responsive website built using **HTML** and **CSS** to showcase who I am, my interests, education, projects, and how to get in touch with me.
 
