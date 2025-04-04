@@ -1,0 +1,145 @@
+/* Styling for the body element */
+body {
+    background-color: rgb(32, 31, 31);
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+
+}
+
+/* Navbar styling */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(32, 31, 31);
+    z-index: 1000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(197, 87, 197);
+    font-weight: 400;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: plum;
+    padding-right: 400px;
+}
+
+/* Styling for every Section of my portfolio */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05); /* Light transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Home section styling */
+.intro {
+    width: 70%;
+    max-width: 1000px;
+    padding-right: 50px;
+}
+
+/* Styling the h1 element of every section to have a lightpurple colour */
+.name {
+    color: rgb(197, 87, 197);
+    font-weight: bold;
+}
+
+/* Image styling */
+img {
+    width: 80%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+}
+
+/* Styling the div element with the class name data */
+.data {
+    width: 80%; 
+    max-width: 1000px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+
+}
+
+/* Sytyling every paragraph element in the div to have a different indentation with the h1 element */
+p{
+    margin-left: 30px;
+}
+
+/* CV Button */
+.cv-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(197, 87, 197);
+    color: white;
+    text-decoration: none;
+    font-size: 1.0rem;
+    border-radius: 5px;
+}
+
+.cv-button:hover {
+    background-color: purple;
+}
+
+/* Styling the project container to have a different look from the class data */
+.project-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    text-align: left;
+}
+
+.project-container a {
+    color: rgb(197, 87, 197);
+}
+.project-container a:hover {
+    background: rgb(197, 87, 197);
+}
+
+/* Styling for the contact-container class */
+.contact-container p {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+.contact-container a {
+    color: rgb(197, 87, 197);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
